@@ -1,1 +1,7 @@
-
+JENKINS JUNIT TESTING STEPS -26-sept-21
+install junit plugin in jenk
+create a freestyle project
+first build without the report then after build go WORKSPACE from there check the TARGET folder there you can see the name SURFIRE REPORTS FOLDER copy that path there
+Then configure in post build actions with junit reports
+then it will ask for the report path, paste the path which took in workspace
+then when you build you will get the junit test report
